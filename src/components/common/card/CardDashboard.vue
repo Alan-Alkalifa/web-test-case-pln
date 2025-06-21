@@ -51,7 +51,7 @@
           :key="item.name"
           class="flex items-center justify-between"
         >
-          <span class="text-black text-[10px] font-medium">{{ item.name }}</span>
+          <span class="text-black text-[10px] font-semibold">{{ item.name }}</span>
           <div class="flex flex-col items-start">
             <span class="text-[20px] font-bold text-[#000000] mr-3">{{ item.totalPackage }}</span>
             <div class="w-14 h-2 bg-gray-200 rounded-full">
